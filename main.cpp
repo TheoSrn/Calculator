@@ -20,8 +20,9 @@ int help(int argc, char *argv[]) {
     else if (argc < 4) {
         cerr << "Error: Not enough arguments or bad arguments" << endl;
         return 1;
-    } else {
+    } else if (argc > 4) {
         cerr << "Error: Too much arguments" << endl;
+        return 1;
     }
     return 0;
 }
