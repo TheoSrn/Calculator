@@ -4,7 +4,7 @@
 
 ### Compilation
 
-- ``g++ -std=c++17 -Wall -Wextra -Werror [Files to compile] -o [Compiled file name]``
+- ``make re``
 
 ### Launch the project
 
@@ -15,7 +15,6 @@
 | **Subtraction**    | `./[ExecutableName] sub [Number1] [Number2]` |
 | **Multiplication** | `./[ExecutableName] mul [Number1] [Number2]` |
 | **Division**       | `./[ExecutableName] div [Number1] [Number2]` |
-
 
 ### Organization
 
